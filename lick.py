@@ -7,8 +7,16 @@
 # for i in values:
 #     print(i)
 
-x = "this is a thing"
-y= x.split( )
-z = y[0]
-print(y)
-print(z)
+# x = "this is a thing"
+# y= x.split( )
+# z = y[0]
+# print(y)
+# print(z)
+
+F = input("type here      ")
+y = F.split()
+z= 0
+for i in y:
+    z += 1
+    print (z)
+
