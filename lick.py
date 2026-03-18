@@ -13,10 +13,43 @@
 # print(y)
 # print(z)
 
-F = input("type here      ")
+""" F = input("type here      ")
 y = F.split()
 z= 0
 for i in y:
     z += 1
-    print (z)
+    print (z) 
+ """
+
+# x = "test"
+# print(f"hello {x}")
+
+
+# temp = input("input ur temperuateurte   ")
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')      
+# else:
+#     print('cold')
+
+
+bill = int(input("BILL:    "))
+service=input("how good was ur service , bad okay good or great??         ")
+if input == "bad":
+   print(bill*1)
+elif input == "okay":
+   print(bill*1.15)
+elif input == "good":
+   print(bill*1.20)
+elif input == "great":
+   print(bill*1.25)
+
+
+
+
+
+
+
+
 
