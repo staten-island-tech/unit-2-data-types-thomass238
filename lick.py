@@ -35,15 +35,20 @@ for i in y:
 
 
 bill = int(input("BILL:    "))
-service=input("how good was ur service , bad okay good or great??         ")
-if input == "bad":
-   print(bill*1)
-elif input == "okay":
-   print(bill*1.15)
-elif input == "good":
-   print(bill*1.20)
-elif input == "great":
-   print(bill*1.25)
+tip =input("Would you like to tip? Y/N      ")
+if tip == "N":
+   print(bill)
+elif tip == "Y":
+   service=input("How good was your service , bad okay good or great??         ")
+   if service == "bad":
+      print(bill*1)
+   elif service == "okay":
+      print(bill*1.15)
+   elif service == "good":
+      print(bill*1.20)
+   elif service == "great":
+      print(bill*1.25)
+
 
 
 
