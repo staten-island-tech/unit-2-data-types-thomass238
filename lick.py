@@ -34,22 +34,28 @@ for i in y:
 #     print('cold')
 
 
-bill = int(input("BILL:    "))
-tip =input("Would you like to tip? Y/N      ")
-if tip == "N":
-   print(bill)
-elif tip == "Y":
-   service=input("How good was your service , bad okay good or great??         ")
-   if service == "bad":
-      print(bill*1)
-   elif service == "okay":
-      print(bill*1.15)
-   elif service == "good":
-      print(bill*1.20)
-   elif service == "great":
-      print(bill*1.25)
+# bill = int(input("BILL:    "))
+# tip =input("Would you like to tip? Y/N      ")
+# if tip == "N":
+#    print(bill)
+# elif tip == "Y":
+#    service=input("How good was your service , bad okay good or great??         ")
+#    if service == "bad":
+#       print(bill*1)
+#    elif service == "okay":
+#       print(bill*1.15)
+#    elif service == "good":
+#       print(bill*1.20)
+#    elif service == "great":
+#       print(bill*1.25)
 
+# n = int(input("Input a number to see its factors:      "))
+# for i in range(1,n+1): 
+#    if n % i == 0:
+#       print (i)
 
+for i in range (1,10+21):
+    print (i)
 
 
 
