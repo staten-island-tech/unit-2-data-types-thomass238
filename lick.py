@@ -11,15 +11,14 @@
 # y= x.split( )
 # z = y[0]
 # print(y)
-# print(z)
+# # print(z)
 
-""" F = input("type here      ")
-y = F.split()
-z= 0
-for i in y:
-    z += 1
-    print (z) 
- """
+# F = input("type here      ")
+# y = F.split()
+# z= 0
+# for i in y:
+#     z += 1
+#     print (z) 
 
 # x = "test"
 # print(f"hello {x}")
@@ -35,15 +34,115 @@ for i in y:
 
 
 bill = int(input("BILL:    "))
-service=input("how good was ur service , bad okay good or great??         ")
-if input == "bad":
+tip = input("Would you like to tip? Y/N     ")
+if tip == "N":
+   print(bill)
+elif tip == "Y":
+   service=input("How good was your service , bad okay good or great??     ")
+if service == "bad":
    print(bill*1)
-elif input == "okay":
+elif service == "okay":
    print(bill*1.15)
-elif input == "good":
+elif service == "good":
    print(bill*1.20)
-elif input == "great":
+elif service == "great":
    print(bill*1.25)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
