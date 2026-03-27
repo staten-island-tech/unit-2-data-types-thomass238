@@ -11,14 +11,15 @@
 # y= x.split( )
 # z = y[0]
 # print(y)
-# # print(z)
+# print(z)
 
-# F = input("type here      ")
-# y = F.split()
-# z= 0
-# for i in y:
-#     z += 1
-#     print (z) 
+""" F = input("type here      ")
+y = F.split()
+z= 0
+for i in y:
+    z += 1
+    print (z) 
+ """
 
 # x = "test"
 # print(f"hello {x}")
@@ -55,102 +56,6 @@
 
 for i in range (1,10+21):
     print (i)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
